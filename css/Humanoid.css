@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 1em;
+  background-color: #fff;
+  font: 16px normal "Droid Sans", sans-serif;
+}
+body * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #777;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #03a9f4;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+h1,
+h2 {
+  font-weight: 300;
+}
+a {
+  color: #03a9f4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+}
+code {
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #f3f3f3;
+  font-family: "Droid Sans Mono", monospace;
+}
+pre code {
+  display: block;
+  overflow-x: scroll;
+  font-family: "Droid Sans Mono", monospace;
+}
+hr {
+  margin: 2em;
+  height: 0.5px;
+  background-color: #03a9f4;
+}
+
