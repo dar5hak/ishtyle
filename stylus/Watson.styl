@@ -1,0 +1,66 @@
+// Fonts
+$title-font = "Raleway", sans-serif
+$base-font = "Open Sans", "Droid Sans", sans-serif
+$mono-font = "Droid Sans Mono", monospace
+
+// Colors
+$base-color = #777
+$accent-color = #03a9f4
+$highlight-bg-color = #f3f3f3
+
+// Global styles
+html, body
+  margin 1em
+  background-color white
+  font 16px normal $base-font
+
+body *
+  max-width 800px
+  margin-left auto
+  margin-right auto
+  color $base-color
+
+// Headings
+h1, h2, h3, h4, h5, h6
+  font-weight 400
+
+h1
+  font-family $title-font
+  font-weight 300
+
+h2
+  font-weight 300
+
+// Links
+a
+  color $accent-color
+  text-decoration none
+
+  &:hover
+    text-decoration underline
+
+// Images
+img
+  display block
+  margin 1em auto
+  max-width 100%
+
+// Code
+code
+  display inline-block
+  padding 0.5em
+  background-color $highlight-bg-color
+  font-family $mono-font
+
+pre code
+  display block
+  overflow-x scroll
+  font-family $mono-font
+
+// TODO: kbd
+
+// Horizontal rule
+hr
+  margin 2em
+  height 0.5px
+  background-color $accent-color
