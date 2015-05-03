@@ -52,5 +52,6 @@ hr {
   margin: 2em;
   height: 0.5px;
   background-color: #03a9f4;
+  border-width: 0;
 }
 
