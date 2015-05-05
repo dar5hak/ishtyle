@@ -1,0 +1,21 @@
+{
+  "name": "ishtyle",
+  "version": "0.1.0",
+  "description": "A collection of stylesheets for standalone documents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dar5hak/ishtyle.git"
+  },
+  "keywords": [
+    "css",
+    "stylus",
+    "style",
+    "sheet",
+    "markdown"
+  ],
+  "author": "Darshak Parikh",
+  "license": "Apache License v2.0",
+  "bugs": {
+    "url": "https://github.com/dar5hak/ishtyle/issues"
+  }
+}
