@@ -19,8 +19,8 @@
     "url": "https://github.com/dar5hak/ishtyle/issues"
   },
   "devDependencies": {
-    "gulp-styl": "~1.0.3",
     "gulp": "~3.8.11",
-    "gulp-stylint": "~1.1.2"
+    "gulp-stylint": "~1.1.2",
+    "gulp-stylus": "~2.0.1"
   }
 }
